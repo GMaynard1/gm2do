@@ -1,11 +1,8 @@
 name: Vessel Issue
 description: Describe an issue taking place on board a vessel
 title: "[VESSEL ISSUE] <title>"
-labels: ["bug"]
+labels: ["task"]
 assignees:
-  - jamespatrickmanning
-  - gmaynard1
-  - xhx509
 body:
 - type: dropdown
   id: VesselName
@@ -69,39 +66,6 @@ body:
     - Virginia_Marie
     - Virginia_Marise
     - Wendy_Lee
-  validations:
-    required: true
-- type: dropdown
-  id: IssueType
-  attributes:
-    label: Issue Type
-    options:
-    - ap3_fails
-    - Aquatec_failure
-    - bad_image
-    - bad_lid
-    - bad_temps
-    - battery_failure
-    - bluetooth_failure
-    - connection_interupt
-    - empty_raw_csvs
-    - files_dragged_off_desktop
-    - fixed_vs_mobile
-    - get_clim_fail
-    - micro_SD
-    - multiple_hauls
-    - no_png_shows
-    - other_not_listed
-    - overheating
-    - port
-    - pressure_sensor_failure
-    - puck_failure
-    - red_light
-    - sporatic_transmissions
-    - transmitter_interference
-    - white_screen
-    - wifi_connection_bad
-    - wifi_pic.py
   validations:
     required: true
 - type: input
