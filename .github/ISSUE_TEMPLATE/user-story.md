@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+Epic: [epic number]
+
 As a [user type]
 
 I want [some feature]
