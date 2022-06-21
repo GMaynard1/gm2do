@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-As a <user type>
+As a [user type]
 
-I want <some feature>
+I want [some feature]
 
-so that <some value>
+so that [some value]
